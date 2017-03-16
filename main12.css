@@ -1,0 +1,39 @@
+body{
+    background: url(subtlepatterns.com/patterns/extra_clean_paper.png);
+}
+.button{
+    display: inline-block;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background: url(subtlepatterns.com/patterns/extra_clean_paper.png);
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0px 2px 25px #0b0b0b,inset 0px 2px 30px rgba(194, 196, 194, 0.78),0 2px 0 #ffffff,inset 0 0 5px #535353;
+         
+}
+.button:hover{
+  box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.83), 0px 2px 30px rgba(0, 0, 0, 0.78),inset 0 0 50px #ffffff;  
+}
+
+.button:after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    opacity: 1;
+    
+}
+.btn-photo:after{
+    background: url(http://defaulticon.com/images/icons32x32/MD-camera-photo-alt-2.png?itok=W3ZqNyED) center no-repeat;
+}
+.btn-setting:after{
+    background: url(http://defaulticon.com/images/icons32x32/settings.png?itok=f3WwNrKf) center no-repeat;
+}
+.btn-tag:after{
+    background: url(http://defaulticon.com/images/icons32x32/door.png?itok=_QWoNSa7) center no-repeat;
+}
+.btn-tag:hover:after{
+    background: url(http://defaulticon.com/images/icons32x32/door-closed.png?itok=Ebvl-jOx) center no-repeat;
+    
+}
